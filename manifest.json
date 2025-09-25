@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Asana Task Number Copier",
+  "version": "1.0.0",
+  "description": "A chrome extension to extract and copy task number from Asana to clipboard.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

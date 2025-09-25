@@ -1,0 +1,37 @@
+
+/* Click feedback animation */
+@keyframes clickPulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(0.95); }
+    100% { transform: scale(1); }
+}
+
+.clicked {
+    animation: clickPulse 0.2s ease-in-out;
+}
+
+/* Remove default focus outline and add custom styling */
+#customButton {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+#customButton:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Hover effect for better UX */
+#customButton:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/* Focus effect that doesn't create a blue square */
+#customButton:focus-visible {
+    opacity: 0.7;
+    transform: scale(1.05);
+    transition: all 0.2s ease;
+}
