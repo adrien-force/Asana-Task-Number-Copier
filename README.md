@@ -1,5 +1,7 @@
 # 🧰 Asana Task Number Copier
 
+<img width="660" height="482" alt="Dia 2025-09-26 15 31 15" src="https://github.com/user-attachments/assets/21a47a16-0cdb-42cd-b8cb-b0fd3699f198" />
+
 ## Objectif de l'extension
 Petite extension Chrome pour copier rapidement le numéro de tâche Asana en un seul clic, en ajoutant un bouton dans le menu d'action de la tâche.
 ## Installation
